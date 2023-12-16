@@ -24,7 +24,7 @@ We need to sort the intervals so that finding clashing intervals takes O(n) time
 
 Another approach could be to define a vector of size 10^6 and mark all the scheduled durations. This was time complexity would be O(n) however, space complexity would also be O(n)
 
-Important Points
+<h1>Important Points</h1>
 
 <ol>
 <li>Comparator for the priority queue.</li>
