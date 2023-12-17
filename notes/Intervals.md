@@ -18,10 +18,13 @@
 
 <h1>Sorting</h1>
 Use the STL to sort. <br/>
+
 '''
+
 bool compareSecondElement(vector<int>& a, vector<int>& b) { <br/>
     return a[1] < b[1]; <br/>
 } <br/>
  <br/>
 sort(intervals.begin(), intervals.end(), compareSecondElement);
+
 '''
