@@ -4,6 +4,7 @@
 <h1>Important Points</h1>
 <ol>
   <li>Almost always require sorting the intervals either based on start times or on end times</li>
+    <li>Figure out if sorting should be done based on start time or end time</li>
   <li>Typically O(nlogn)</li>
 </ol>
 
