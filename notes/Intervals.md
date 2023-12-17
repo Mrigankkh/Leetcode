@@ -15,3 +15,11 @@
   <li>Complete overlapped interval</li>
   <li>Duplcate interval</li>
 </ol>
+
+<h1>Sorting</h1>
+Use the STL to sort.
+bool compareSecondElement(vector<int>& a, vector<int>& b) {
+    return a[1] < b[1];
+}
+
+sort(intervals.begin(), intervals.end(), compareSecondElement);
