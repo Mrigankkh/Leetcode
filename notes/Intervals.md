@@ -11,7 +11,7 @@
 <ol>
   <li>No intervals</li>
   <li>One interval</li>
-  <l1>Two intervals</l1>
+  <li>Two intervals</li>
   <li>Complete overlapped interval</li>
   <li>Duplcate interval</li>
 </ol>
