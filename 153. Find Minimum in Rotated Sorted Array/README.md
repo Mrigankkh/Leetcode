@@ -1,4 +1,4 @@
-#FindMinimum in Rotated Sorted Array
+<h1>FindMinimum in Rotated Sorted Array</h1>
 <h2>TLDR;</h2>
 If sorted array is rotated, tis first element is going to be larger than last element. Find this sub-array in a merge sort-esque fashion until the unsorted element is found.
 <h2>Intuition</h2>
