@@ -10,6 +10,7 @@ Additionally, we know that there is only one kink in this sorted array.
 
 We first check if the entire array satisfies this condition. If so, we check the first half of this array has this kink. If so, we recursively split this array in half. This is because the kink must be present in one of the two split arrays.
 </br>
+</br    >
 I defined a function getMin. If the middle element of the array is greater than the next element, the kink is found! I return the next element. If not, I check the left half and then the right half of the array. 
 
 
