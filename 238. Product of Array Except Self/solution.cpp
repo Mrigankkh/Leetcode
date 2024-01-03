@@ -12,8 +12,11 @@ public:
             ans[nums.size()-1-i] = r * ans[nums.size()-i-1];
             r = r*nums[nums.size()-1-i];
 
-
+            
         }
+
+        
         return ans;
     }
 };
+
