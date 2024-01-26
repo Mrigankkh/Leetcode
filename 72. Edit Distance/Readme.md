@@ -6,11 +6,11 @@ Keep one string as is and try all operations on each charecter of the other stri
 
 <h2>Detailed Logic</h2>
 1. Denote strings in terms of indexes.
-    i: String s     j: String t
+    i: String s      j: String t
     Let f(i,j) be this function acting on substrings of s and t from s[0,i] and t[0,j]
 
 2. Explore all possibilities
-    2.1 If s[i] ==t[j], we do not need to change anything if both charecters are the same.
+    2.1 If s[i] ==t[j], we do not need to change anything if both charecters are the same. 
 
     2.2 If s[i]!= t[j], we have 3 options: 
         2.2.1 Insert a character in front of S
